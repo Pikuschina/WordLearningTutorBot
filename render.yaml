@@ -1,0 +1,7 @@
+services
+  - type worker
+    name telegram-word-bot
+    env python
+    plan free
+    buildCommand 
+    startCommand python bot.py
